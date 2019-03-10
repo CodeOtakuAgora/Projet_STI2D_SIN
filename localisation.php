@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 
@@ -18,6 +18,8 @@
 <br/>
 
 <div id="map"></div><br/><br/>
+
+<!-- ***CODE PHP*** -->
   
     <?php
   
@@ -36,6 +38,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=tsti2d1;charset=utf8','root','');
     
     ?>
       
+<!-- ***CODE JAVASCRIPT*** -->
      
       <script>
 
@@ -104,7 +107,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=tsti2d1;charset=utf8','root','');
 
     </script>  
   
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdYJDjvEjRu3abY6WbCVGYl7xjv4lN3oM&callback=initMap" 
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
 	async defer></script>
 
 	<?php include("footer.php"); ?>
