@@ -1,0 +1,226 @@
+/*
+background website
+*/
+
+html, body
+{
+	overflow-x : hidden;
+    margin : 0;	
+    padding: 0;
+    height: 100%;
+}
+
+
+/*
+menu website
+*/
+
+
+#bannière1
+{
+	display : block;
+	background-color : #F44336;
+	height : 50px;
+	width : 100%; 
+}
+
+#bannière2
+{
+	display : block;
+	background-color : #F44336;
+	height : 50px;
+	width : 100%; 
+}
+
+#bannière1 p
+{
+	position : relative;
+	font-weight : bold;
+	font-size : 23px;
+	top : 7px;
+	text-align : center;
+	margin : 0;
+}
+
+#menu
+{
+	width : 100%;
+	height : 100px;
+	position : relative;
+	background-color : #D50000;
+}
+
+#menu ul
+{
+	float : left;
+	left : 50%;
+	position : relative;
+	padding-top : 15px;
+	margin-left : -60px;
+	
+}
+
+#menu ul li
+{
+	margin-left : 20px;
+	float : left;
+	list-style-type : none;
+	position : relative;
+	left : -50%;
+}
+
+#menu ul li a
+{
+	text-align : center;
+	padding-top : 10px;
+	display : inline-block;
+	background-color : #F44336;
+	height : 30px;
+	width : 100px;
+	color : black;
+	text-decoration : none;
+}
+
+#menu ul li a:hover
+{
+	color : white;
+	background-color : #B71C1C;
+}
+
+
+/*
+footer website
+*/
+
+
+#footer
+{
+	text-align : center;
+	display : block;
+	background-color : #2196F3;
+	height : 60px;
+	width : 100%;
+}
+
+#footer p
+{
+	color : #0D47A1;
+	font-weight : bold;
+	position : relative;
+	top : 18px;
+}
+
+#dates
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#taches
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#name
+{
+	display: flex;
+	justify-content: center;
+}
+
+#map
+{
+	width: 100%;
+	height: 50%;
+
+}
+
+#picture_trotinette
+{
+	display: flex;
+	justify-content: center;
+}
+
+h1
+{
+	display: flex;
+	justify-content: center;
+	background-color: lightblue;
+	color: white;
+}
+
+.contenuprincipal
+{
+	display: block;
+	width: 55%;
+	margin: auto;
+	background-color: grey;
+	color: white;
+}
+
+#contenuautres
+{
+	display: block;
+	width: 21%;
+	margin: auto;
+	background-color: grey;
+	color: white;
+}
+
+figure
+{
+	width: 400px; 
+	height: 300px; 
+	overflow:hidden;
+}
+
+figure:hover figcaption
+{
+	transform:translateY(-200px); 
+	transition:.1s ease-in-out;
+}
+
+figcaption
+{
+	width: 400px; 
+	line-height:80px; 
+	color: black; 
+	text-align:center; 
+	background: blue;
+	opacity: 0.75; 
+	font-size: 15px;
+	font-weight: bold;
+	transition:.1s ease-in-out;
+}
+
+/* Fond */
+
+#fond_accueil
+{
+	background-image: url("fond_accueil.jpg");
+	 background-attachment: fixed; 
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#fond_carte
+{
+	background-image: url("fond_carte.jpg");
+	 background-attachment: fixed; 
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+/*
+Media Queries
+*/
+
+@media all and (max-width: 1024px)
+{
+	*
+	{
+		width: auto;
+	}
+}
