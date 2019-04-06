@@ -1,9 +1,16 @@
-*** Copyright By Hugo Fief ***
-- Pour utiliser entierrement le projet, vous aller dans votre phpmyadmin et créer une base de données tsti2d1
-- Ensuite créer une table trottinette avec 3 champs : id (int, auto_incrment, primary key), lon(double), lat(double)
-- Ensuite créer 4 id avec des longitude et latitudes de votre choix
-- Puis, allez sur le site google map api obtenez ensuite une clé API 
-- Pour finir, modifer la ligne 107 du fichier localisation.php avec votre clé API
+# PROJET A RENDRE POUR MON BAC STI2D SIN 
 
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+---
+
+## ***Developed by Hugo Fief***
+
+- Pour utiliser entierrement le projet, vous aller dans votre phpmyadmin et crÃ©er une base de donnÃ©es tsti2d1
+- Ensuite crÃ©er une table trottinette avec 3 champs : id (int, auto_incrment, primary key), lon(double), lat(double)
+- Ensuite crÃ©er 4 id avec des longitude et latitudes de votre choix
+- Puis, allez sur le site google map api obtenez ensuite une clÃ© API 
+- Pour finir, modifer la ligne 107 du fichier localisation.php avec votre clÃ© API
+
+```html
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+```
 
