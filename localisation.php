@@ -105,9 +105,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=tsti2d1;charset=utf8','root','');
 
     </script>  
   
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
-    async defer>
-    </script>
+    <script src="YOUR_API_KEY" async defer></script>
 
 	<?php include("footer.php"); ?>
 
