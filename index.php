@@ -26,7 +26,7 @@ include("menu.php");
 
 	<figure>
 
-				<img src="trotinette.jpg" width=400px height="300px" alt="Picture de Présentation"></a>
+				<img src="img/trotinette.jpg" width=400px height="300px" alt="Picture de Présentation"></a>
 
 			<figcaption>
 				<a href="ressources.pdf" 

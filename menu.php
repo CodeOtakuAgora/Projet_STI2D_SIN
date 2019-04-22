@@ -12,11 +12,11 @@ include("infos.php");
 <body>
 
 	<div id="dates">
-		<a href="dates.jpg" target="_blank"><img src="logo.jpg" width=100px height=50px title="Dates du Projet"></a>
+		<a href="img/dates.jpg" target="_blank"><img src="img/logo.jpg" width=100px height=50px title="Dates du Projet"></a>
 	</div>
 
 	<div id="taches">
-		<a href="cdc.pdf" target="_blank"><img src="picture.png" width=100px height=50px title="Cahier des Charges"></a>
+		<a href="docs/cdc.pdf" target="_blank"><img src="img/picture.png" width=100px height=50px title="Cahier des Charges"></a>
 	</div>
 
 <div id="bannière1">

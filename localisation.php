@@ -25,8 +25,6 @@
   
 $bdd = new PDO('mysql:host=localhost;dbname=tsti2d1;charset=utf8','root','');
 
-    // $bdd = new PDO('mysql:host=localhost;dbname=tsti2d1;charset=utf8', 'root', '');
-
     $reponse1 = $bdd->query('SELECT * FROM trottinette where id ="1"');
     $reponse2 = $bdd->query('SELECT * FROM trottinette where id ="2"');
     $reponse3 = $bdd->query('SELECT * FROM trottinette where id ="3"');

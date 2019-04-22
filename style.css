@@ -199,7 +199,7 @@ figcaption
 
 #fond_accueil
 {
-	background-image: url("fond_accueil.jpg");
+	background-image: url("img/fond_accueil.jpg");
 	 background-attachment: fixed; 
     background-repeat: no-repeat;
     height: 100%;
@@ -207,7 +207,7 @@ figcaption
 
 #fond_carte
 {
-	background-image: url("fond_carte.jpg");
+	background-image: url("img/fond_carte.jpg");
 	 background-attachment: fixed; 
     background-repeat: no-repeat;
     height: 100%;
