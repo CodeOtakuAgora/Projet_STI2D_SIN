@@ -16,6 +16,6 @@ Arborescence du Projet :
 - Pour finir, modifer la ligne 107 du fichier localisation.php avec votre clé API
 
 ```html
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="YOUR_API_KEY" async defer></script>
 ```
 
